@@ -38,7 +38,7 @@ const SecondScreen = ({navigation}) => {
           </View>
           <View style={{}}>
             <Text>UPI ID*</Text>
-            <CustomTextInput />
+            <CustomTextInput keyboardType="email-address" />
           </View>
 
           <View>
